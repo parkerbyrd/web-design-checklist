@@ -11,5 +11,6 @@ This is a checklist for my web design that covers
 * Design Foundations
 * Saving Images
 * Accessiblity
+* Code Validation
 * Git/Terminal
 * Sass
