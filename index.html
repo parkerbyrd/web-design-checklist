@@ -9,9 +9,30 @@
 <body>
 <div class="container">	
 <h1>Web Design Checklist</h1><br>
-<h2>HTML</h2>
+<nav>
+		<ul>
+			<li><a href="#html">HTML</a></li>
+			<li><a href="#css">CSS</a></li>
+			<li><a href="#file">File Management</a></li>
+			<li><a href="#content">Content</a></li>
+			<li><a href="#grid">Grid</a></li>
+			<li><a href="#typography">Typography</a></li>
+			<li><a href="#colortheory">Color Theory</a></li>
+			<li><a href="#styletiles">Styletiles</a></li>
+			<li><a href="#savingimages">Saving Images</a></li>
+			<li><a href="#accessibility">Accessibility</a></li>
+			<li><a href="#codevalidation">Code Validation</a></li>
+			<li><a href="#git">Git and Github</a></li>
+			<li><a href="#sass">Sass</a></li>
+			<li><a href="commandline">Command Line</a></li>
+			<li><a href="#rwd">Responsive Web Design</a></li>
+		</ul>
+	</nav>
+	<button class="to-top" onclick="location.href='#top'">
+    Back to top</button>
+<h2 id="html">HTML</h2>
 <ul>
-	<li>Always close tags</li>
+	<li>Always close tags</li><code>
 	<li>Indent correctly</li>
 	<li>Avoid inline css in html file</li>
 	<li>Use ID's and Classes correctly</li>
@@ -23,7 +44,7 @@
 	<li>Use UL's for the nav bar</li>
 	<li>Give images an "alt"</li>
 </ul><br>
-<h2>CSS</h2>
+<h2 id="css">CSS</h2>
 <ul>
 	<li>Use Resets</li>
 	<li>Use margins and padding</li>
@@ -34,14 +55,14 @@
 	<li>Use Shorthand</li>
 	<li>Return key! give styles their own line</li>
 </ul><br>
-<h2>File Management</h2>
+<h2 id="file">File Management</h2>
 <ul>
 	<li>useCamelCase</li>
 	<li>No spaces to avoid "%20"</li>
 	<li>Letters and numbers are okay</li>
 	<li>Organize project folders so links work</li>
 </ul><br>
-<h2>Content</h2>
+<h2 id="content">Content</h2>
 <ul>
 	<li>Use grids, blocks, columns to lay out content</li>
 	<li>Organize content</li>
@@ -56,21 +77,21 @@
 		<li>Is the grid responsive?</li>
 		<li>Use grids to create columns</li>
 	</ul><br>
-<h3>Typography</h3>
+<h3 id="typography">Typography</h3>
 	<ul>
 		<li>40-70 characters for each line</li>
 		<li>Colors should contrast well to improve readability</li>
 		<li>Use fonts that compliment each other</li>
 		<li>Use Whitespace and line height</li>
 	</ul><br>
-<h3>Color Theory</h3>
+<h3 id="colortheory">Color Theory</h3>
 	<ul>
 		<li>Right contrast where need be</li>
 		<li>Colors should all align to the theme of the site</li>
 		<li>Create secondary palette based off other saturations and hues or primary colors</li>
 		<li>Be Consistent</li>
 	</ul><br>	
-<h3>Using style tiles</h3>
+<h3 id="styletiles">Using style tiles</h3>
 	<ul>
 		<li>Color Palette</li>
 		<li>Icon example</li>
@@ -79,7 +100,7 @@
 		<li>No real content. only style</li>
 	</ul><br>
 
-<h2>Saving images correctly</h2>
+<h2 id="savingimages">Saving images correctly</h2>
 <ul>
 	<li>Always use Save For Web</li>
 	<li>Use the right file type based on need and use of photo</li>
@@ -87,7 +108,7 @@
 	<li>Watch out for transparency issues</li>
 </ul><br>
 
-<h2>Accessibility/usability</h2>
+<h2 id="accessibility">Accessibility/usability</h2>
 	<ul>
 		<li>Does the site load in 3 seconds?</li>
 		<li>Text is easy to read and flows with natural eye movements</li>
@@ -98,20 +119,20 @@
 		<li>Mobile first: are there elements on the page that hurt the UX on a smaller screen?</li>
 
 	</ul><br>
-<h2>Code Validation</h2>
+<h2 id="codevalidation">Code Validation</h2>
 <ul>
 	<li>Test the Html and CSS using code validators</li>
 	<li>Test certain functions using <a href="http://caniuse.com">Can I Use?</a></li>
 	<li>Test on different browsers and screens</li>
 </ul><br>
-<h2>Git/Terminal</h2>
+<h2 id="git">Git and Github</h2>
 <ul>
 	<li>Use the alphabetical order rule for git</li>
 	<li>Be aware of what folder and git repo you are in</li>
 	<li>Commit randomly</li>
 	<li>Remember mkdir and touch for creating project folders and files</li>
 </ul>
-<h2>Sass</h2>
+<h2 id="sass">Sass</h2>
 <ul>
 	<li>Always Sass watch</li>
 	<li>Use variables and mixins to shorten code and make future changes easy</li>
@@ -119,7 +140,7 @@
 	<li>Remember that Sass is your friend</li>
 	<li>Never touch the actual css file, sass will change it for you</li>
 </ul>
-<h2>Command Line</h2>
+<h2 id="commandline">Command Line</h2>
 <ul>
 	<li>Git status, add, commit, push</li>
 	<li>sass --watch ...scss</li>
@@ -127,6 +148,7 @@
 	<li>python -m SimpleHTTPServer</li>
 	<li>NEVER GIT INIT IN HOME FOLDER</li>
 </ul>
+<h2 id="rwd">Responsive Web Design</h2>
 
 <footer class="main-footer container">Follow these steps to be the most kickass web designer</footer>
 </div>
