@@ -4,231 +4,228 @@
 		<title>Checklist</title>
 		<link rel="stylesheet" type="text/css" href="stylesheets/main.css">
 		<link rel="stylesheet" type="text/css" href="stylesheets/jquery.pagepiling.css">
-	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-	<script type="text/javascript" src="js/jquery.pagepiling.js"></script>
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+		<script type="text/javascript" src="js/jquery.pagepiling.js"></script>
 		
 		
-			
+		
 		<script src="//use.typekit.net/lcu7ttf.js"></script>
 		<script>try{Typekit.load();}catch(e){}</script>
 	</head>
 	<body>
-		<div class="container">
-			<header>
-			
-			<nav>
+		<div class="container" id="pagepiling">
+			<div class="section header">
+				
+				<nav>
+					<ul>
+						<li data-anchor='HTML'><a href="#html">HTML</a></li>
+						<li><a href="#css">CSS</a></li>
+						<li><a href="#file">File Management</a></li>
+						<li><a href="#content">Content</a></li>
+						<li><a href="#grid">Grid</a></li>
+						<li><a href="#typography">Typography</a></li>
+						<li><a href="#colortheory">Color Theory</a></li>
+						<li><a href="#styletiles">Styletiles</a></li>
+						<li><a href="#savingimages">Saving Images</a></li>
+						<li><a href="#accessibility">Accessibility</a></li>
+						<li><a href="#codevalidation">Code Validation</a></li>
+						<li><a href="#git">Git and Github</a></li>
+						<li><a href="#sass">Sass</a></li>
+						<li><a href="#commandline">Command Line</a></li>
+						<li><a href="#rwd">Responsive Web Design</a></li>
+						<li><a href="#javascript">Javascript</a></li>
+						<li><a href="#jquery">jQuery</a></li>
+					</ul>
+				</nav>
+				<button class="to-top" onclick="location.href='#top'">
+				Back to top</button>
+				
+			</div>
+			<div class="section page" id="html">
+				<div class="box">
+					<h2>HTML</h2>
+				</div>
 				<ul>
-					<li><a href="#html">HTML</a></li>
-					<li><a href="#css">CSS</a></li>
-					<li><a href="#file">File Management</a></li>
-					<li><a href="#content">Content</a></li>
-					<li><a href="#grid">Grid</a></li>
-					<li><a href="#typography">Typography</a></li>
-					<li><a href="#colortheory">Color Theory</a></li>
-					<li><a href="#styletiles">Styletiles</a></li>
-					<li><a href="#savingimages">Saving Images</a></li>
-					<li><a href="#accessibility">Accessibility</a></li>
-					<li><a href="#codevalidation">Code Validation</a></li>
-					<li><a href="#git">Git and Github</a></li>
-					<li><a href="#sass">Sass</a></li>
-					<li><a href="#commandline">Command Line</a></li>
-					<li><a href="#rwd">Responsive Web Design</a></li>
-					<li><a href="#javascript">Javascript</a></li>
-					<li><a href="#jquery">jQuery</a></li>
+					<li>Always close tags</li>
+					<li>Indent correctly</li>
+					<li>Avoid inline css in html file</li>
+					<li>Use ID's and Classes correctly</li>
+					<li>Dont name classes things that are already tags (header, link, etc.)</li>
+					<li>Use H tags! (Heirarchy)</li>
+					<li>Code special characters</li>
+					<li>Validate the code</li>
+					<li>SEO and links to CSS and JS files go in the head tag</li>
+					<li>Use UL's for the nav bar</li>
+					<li>Give images an "alt"</li>
+				</ul><br>
+			</div>
+			<div class="section page" id="css">
+				<div class="box">
+					<h2>CSS</h2>
+				</div>
+				<ul>
+					<li>Use a reset. Always start with that</li>
+					<li>Use margins and padding and keep them responsive</li>
+					<li>Validate the code</li>
+					<li>Think minimal: dont go div crazy</li>
+					<li>Don't confuse floats and display</li>
+					<li>Name classes and IDs based on their functionality</li>
+					<li>Use Comments to help reference things later</li>
+					<li>Use Shorthand whenever possible</li>
+					<li>Use the return key and indents to give styles their own lines</li>
+				</ul><br>
+			</div>
+			<div class="section page" id="file">
+				<div class="box">
+					<h2>File Management</h2>
+				</div>
+				<ul>
+					<li>useCamelCase</li>
+					<li>No spaces to avoid "%20"</li>
+					<li>Letters and numbers are okay</li>
+					<li>Organize project folders so links work</li>
+					<li>Dont name files things like "as_of_tuesday". Keep it professional</li>
+				</ul><br>
+			</div>
+			<div class="section page" id="content">
+				<div class="box">
+					<h2>Content</h2>
+				</div>
+				<ul>
+					<li>Use grids, blocks, columns to lay out content</li>
+					<li>Organize content</li>
+					<li>Keep a consistent use of colors, fonts and hover states</li>
+					<li>No errors (spelling, code, design)</li>
+					<li>Keep it functional</li>
+				</ul><br>
+			</div>
+			<div class="section page" id="grid">
+				<div class="box">
+					<h2>Grid</h2>
+				</div>
+				<ul>
+					<li>Use grids to align content</li>
+					<li>Is the grid responsive?</li>
+					<li>Use grids to create columns</li>
+				</ul><br>
+			</div>
+			<div class="section page" id="typography">
+				<div class="box">
+					<h2>Typography</h2>
+				</div>
+				<ul>
+					<li>40-70 characters for each line</li>
+					<li>Colors should contrast well to improve readability</li>
+					<li>Use fonts that compliment each other</li>
+					<li>Use Whitespace and line height</li>
+				</ul><br>
+			</div>
+			<div class="section page" id="colortheory">
+				<div class="box">
+					<h2>Color Theory</h2>
+				</div>
+				<ul>
+					<li>Right contrast where need be</li>
+					<li>Colors should all align to the theme of the site</li>
+					<li>Create secondary palette based off other saturations and hues or primary colors</li>
+					<li>Be Consistent</li>
+				</ul><br>
+			</div>
+			<div class="section page" id="styletiles">
+				<div class="box">
+					<h2>Using style tiles</h2>
+				</div>
+				<ul>
+					<li>Color Palette</li>
+					<li>Icon example</li>
+					<li>Show all examples of typography heirarchy</li>
+					<li>Do not let it look like a webpage</li>
+					<li>No real content. only style</li>
+				</ul><br>
+			</div>
+			<div class="section page" id="savingimages">
+				<div class="box">
+					<h2>Saving images correctly</h2>
+				</div>
+				<ul>
+					<li>Always use Save For Web</li>
+					<li>Use the right file type based on need and use of photo</li>
+					<li>Smaller file size, Faster loading time</li>
+					<li>Watch out for transparency issues</li>
+				</ul><br>
+			</div>
+			<div class="section page" id="accessibility">
+				<div class="box">
+					<h2>Accessibility/usability</h2>
+				</div>
+				<ul>
+					<li>Does the site load in 3 seconds?</li>
+					<li>Text is easy to read and flows with natural eye movements</li>
+					<li>Navigation is obvious and easy to use</li>
+					<li>Design for the colorblind too!</li>
+					<li>Browser Support</li>
+					<li>Is the site responsive?</li>
+					<li>Mobile first: are there elements on the page that hurt the UX on a smaller screen?</li>
+				</ul><br>
+			</div>
+			<div class="section page" id="codevalidation">
+				<div class="box">
+					<h2>Code Validation</h2>
+				</div>
+				<ul>
+					<li>Test the Html and CSS using code validators</li>
+					<li>Test certain functions using <a href="http://caniuse.com">Can I Use?</a></li>
+					<li>Test on different browsers and screens</li>
+				</ul><br>
+			</div>
+			<div class="section page" id="git">
+				<div class="box">
+					<h2>Git and Github</h2>
+				</div>
+				<ul>
+					<li>Use the alphabetical order rule for git</li>
+					<li>Be aware of what folder and git repo you are in</li>
+					<li>Commit randomly</li>
+					<li>Remember mkdir and touch for creating project folders and files</li>
+				</ul><br>
+			</div>
+			<div class="section page" id="sass">
+				<div class="box">
+					<h2>Sass</h2>
+				</div>
+				<ul>
+					<li>Always remember to have Sass watch on</li>
+					<li>Use variables and mixins to shorten code and make future changes easy</li>
+					<li>Use import for resets and other scss files when using OOCSS</li>
+					<li>Nest the elements, but keep it consistent or certain changes will not occur</li>
+					<li>Never touch the actual css file, sass will change it for you</li>
+				</ul><br>
+			</div>
+			<div class="section page" id="commandline">
+				<div class="box">
+					<h2>Command Line</h2>
+				</div>
+				<ul>
+					<li>Use "Git status, add, commit, push"</li>
+					<li>Remember to use "sass --watch ...scss" while working on a project</li>
+					<li>Git checkout changes repos</li>
+					<li>Use "python -m SimpleHTTPServer" to create a local server to view work on</li>
+					<li>Never use git init in the home folder</li>
+				</ul><br>
+			</div>
+			<div class="section page" id="rwd">
+				<div class="box">
+					<h2>Responsive Web Design</h2>
+				</div>
+				<ul>
+					<li>Use percents for widths, and left to right adjustments</li>
+					<li>Use pixels or ems for heights and top to bottom adjustments</li>
+					<li>Use media queries to change things as the viewport size changes</li>
+					<li>Always include the viewport meta tag</li>
+					<li>Keep the layout, images, type, and videos flexible</li>
 				</ul>
-			</nav>
-			<button class="to-top" onclick="location.href='#top'">
-			Back to top</button>
-			
-		</header>
-			<div class="section" id="html">
-			<div class="box">
-				<h2>HTML</h2>
 			</div>
-			<ul>
-				<li>Always close tags</li>
-				<li>Indent correctly</li>
-				<li>Avoid inline css in html file</li>
-				<li>Use ID's and Classes correctly</li>
-				<li>Dont name classes things that are already tags (header, link, etc.)</li>
-				<li>Use H tags! (Heirarchy)</li>
-				<li>Code special characters</li>
-				<li>Validate the code</li>
-				<li>SEO and links to CSS and JS files go in the head tag</li>
-				<li>Use UL's for the nav bar</li>
-				<li>Give images an "alt"</li>
-			</ul><br>
-			</div>
-			<div class="section" id="css">
-				<div class="box">
-			<h2>CSS</h2>
-		</div>
-			<ul>
-				<li>Use a reset. Always start with that</li>
-				<li>Use margins and padding and keep them responsive</li>
-				<li>Validate the code</li>
-				<li>Think minimal: dont go div crazy</li>
-				<li>Don't confuse floats and display</li>
-				<li>Name classes and IDs based on their functionality</li>
-				<li>Use Comments to help reference things later</li>
-				<li>Use Shorthand whenever possible</li>
-				<li>Use the return key and indents to give styles their own lines</li>
-			</ul><br>
-			</div>
-			<div class="section" id="file">
-				<div class="box">
-			<h2>File Management</h2>
-			</div>
-			<ul>
-				<li>useCamelCase</li>
-				<li>No spaces to avoid "%20"</li>
-				<li>Letters and numbers are okay</li>
-				<li>Organize project folders so links work</li>
-				<li>Dont name files things like "as_of_tuesday". Keep it professional</li>
-			</ul><br>
-		</div>
-			<div class="section" id="content">
-				<div class="box">
-			<h2>Content</h2>
-		</div>
-			<ul>
-				<li>Use grids, blocks, columns to lay out content</li>
-				<li>Organize content</li>
-				<li>Keep a consistent use of colors, fonts and hover states</li>
-				<li>No errors (spelling, code, design)</li>
-				<li>Keep it functional</li>
-			</ul><br>
-			</div>
-			<div class="section" id="grid">
-				<div class="box">
-			<h2>Grid</h2>
-		</div>
-			<ul>
-				<li>Use grids to align content</li>
-				<li>Is the grid responsive?</li>
-				<li>Use grids to create columns</li>
->>>>>>> b2e3562b953b886e8bcfde52689f98da8085f0a9
-
-			</ul><br>
-			</div>
-			<div class="section" id="typography">
-				<div class="box">
-			<h2>Typography</h2>
-		</div>
-			<ul>
-				<li>40-70 characters for each line</li>
-				<li>Colors should contrast well to improve readability</li>
-				<li>Use fonts that compliment each other</li>
-				<li>Use Whitespace and line height</li>
-			</ul><br>
-			</div>
-			<div class="section" id="colortheory">
-				<div class="box">
-			<h2>Color Theory</h2>
-		</div>
-			<ul>
-				<li>Right contrast where need be</li>
-				<li>Colors should all align to the theme of the site</li>
-				<li>Create secondary palette based off other saturations and hues or primary colors</li>
-				<li>Be Consistent</li>
-			</ul><br>
-			</div>
-			<div class="section" id="styletiles">
-				<div class="box">
-			<h2>Using style tiles</h2>
-		</div>
-			<ul>
-				<li>Color Palette</li>
-				<li>Icon example</li>
-				<li>Show all examples of typography heirarchy</li>
-				<li>Do not let it look like a webpage</li>
-				<li>No real content. only style</li>
-			</ul><br>
-			</div>
-			<div class="section" id="savingimages">
-				<div class="box">
-			<h2>Saving images correctly</h2>
-		</div>
-			<ul>
-				<li>Always use Save For Web</li>
-				<li>Use the right file type based on need and use of photo</li>
-				<li>Smaller file size, Faster loading time</li>
-				<li>Watch out for transparency issues</li>
-			</ul><br>
-			</div>
-			<div class="section" id="accessibility">
-				<div class="box">
-			<h2>Accessibility/usability</h2>
-		</div>
-			<ul>
-				<li>Does the site load in 3 seconds?</li>
-				<li>Text is easy to read and flows with natural eye movements</li>
-				<li>Navigation is obvious and easy to use</li>
-				<li>Design for the colorblind too!</li>
-				<li>Browser Support</li>
-				<li>Is the site responsive?</li>
-				<li>Mobile first: are there elements on the page that hurt the UX on a smaller screen?</li>
-			</ul><br>
-			</div>
-			<div class="section" id="codevalidation">
-				<div class="box">
-			<h2>Code Validation</h2>
-		</div>
-			<ul>
-				<li>Test the Html and CSS using code validators</li>
-				<li>Test certain functions using <a href="http://caniuse.com">Can I Use?</a></li>
-				<li>Test on different browsers and screens</li>
-			</ul><br>
-			</div>
-			<div class="section" id="git">
-				<div class="box">
-			<h2>Git and Github</h2>
-		</div>
-			<ul>
-				<li>Use the alphabetical order rule for git</li>
-				<li>Be aware of what folder and git repo you are in</li>
-				<li>Commit randomly</li>
-				<li>Remember mkdir and touch for creating project folders and files</li>
-			</ul><br>
-			</div>
-			<div class="section" id="sass">
-<div class="box">
-			<h2>Sass</h2>
-		</div>
-
-			<ul>
-				<li>Always remember to have Sass watch on</li>
-				<li>Use variables and mixins to shorten code and make future changes easy</li>
-				<li>Use import for resets and other scss files when using OOCSS</li>
-				<li>Nest the elements, but keep it consistent or certain changes will not occur</li>
-				<li>Never touch the actual css file, sass will change it for you</li>
-			</ul><br>
-		</div>
-			<div class="section" id="commandline">
-				<div class="box">
-			<h2>Command Line</h2>
-		</div>
-			<ul>
-				<li>Use "Git status, add, commit, push"</li>
-				<li>Remember to use "sass --watch ...scss" while working on a project</li>
-				<li>Git checkout changes repos</li>
-				<li>Use "python -m SimpleHTTPServer" to create a local server to view work on</li>
-				<li>Never use git init in the home folder</li>
-			</ul><br>
-			</div>
-			<div class="section" id="rwd">
-				<div class="box">
-			<h2>Responsive Web Design</h2>
-			</div>
-			<ul>
-				<li>Use percents for widths, and left to right adjustments</li>
-				<li>Use pixels or ems for heights and top to bottom adjustments</li>
-				<li>Use media queries to change things as the viewport size changes</li>
-				<li>Always include the viewport meta tag</li>
-				<li>Keep the layout, images, type, and videos flexible</li>
-			</ul>
-			</div>
-			<div class="section" id="javascript">
+			<div class="section page" id="javascript">
 				<div class="box">
 					<h2>Javascript</h2>
 				</div>
@@ -241,7 +238,7 @@
 					<li>Empty quotes create an empty string</li>
 				</ul>
 			</div>
-			<div class="section" id="jquery">
+			<div class="section page" id="jquery">
 				<div class="box">
 					<h2>jQuery</h2>
 				</div>
@@ -254,7 +251,7 @@
 		<footer class="main-footer container">Follow these steps to be the most kickass web designer</footer>
 	</div>
 	<script>$(document).ready(function() {
-    $('#pagepiling').pagepiling();
-});</script>
+	$('#pagepiling').pagepiling();
+	});</script>
 </body>
 </html>

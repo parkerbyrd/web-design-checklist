@@ -82,7 +82,7 @@ ul {
   margin-top: 30px;
   text-align: center; }
 
-header {
+.header {
   background: url("../img/logo.png");
   background-size: cover;
   height: 700px; }
@@ -128,48 +128,48 @@ button {
   top: 0%;
   right: 0%; }
 
-.section {
+.page {
   width: 100%;
   height: 100%;
   min-height: 700px; }
-  .section ul {
+  .page ul {
     width: 60%;
     margin: 0 auto;
     padding: 40px;
-    margin-top: 50px; }
-    .section ul li {
+    margin-top: 30px; }
+    .page ul li {
       line-height: 2.0;
       position: relative;
       left: 0;
       transition: left 500ms ease; }
-      .section ul li:hover {
+      .page ul li:hover {
         position: relative;
         left: 15px; }
-      .section ul li a {
+      .page ul li a {
         color: black;
         text-decoration: none;
         border-bottom: 1px dotted black; }
-  .section .box {
+  .page .box {
     background: white; }
-    .section .box h2 {
+    .page .box h2 {
       font-size: 50px;
       font-family: "brush-script-std";
       font-weight: 400;
       text-align: center; }
 
-.section:nth-of-type(5n+1) {
+.page:nth-of-type(5n+1) {
   background-color: #b7283a; }
 
-.section:nth-of-type(5n+2) {
+.page:nth-of-type(5n+2) {
   background-color: #edcc5b; }
 
-.section:nth-of-type(5n+3) {
+.page:nth-of-type(5n+3) {
   background-color: #b5966a; }
 
-.section:nth-of-type(5n+4) {
+.page:nth-of-type(5n+4) {
   background-color: #d9ebed; }
 
-.section:nth-of-type(5n+5) {
+.page:nth-of-type(5n+5) {
   background-color: #cece76; }
 
 /*# sourceMappingURL=main.css.map */

@@ -25,7 +25,7 @@
         options = $.extend({
             direction: 'vertical',
             menu: null,
-            verticalCentered: true,
+            verticalCentered: false,
             sectionsColor: [],
             anchors: [],
             scrollingSpeed: 700,
@@ -37,7 +37,7 @@
                 'textColor': '#000',
                 'bulletsColor': '#000',
                 'position': 'right',
-                'tooltips': ['section1', 'section2', 'section3', 'section4']
+                'tooltips': ['Home', 'HTML', 'CSS', 'File Management', 'Content', 'Grid', 'Typography', 'Color Theory', 'Style Tiles', 'Saving Images', 'Accessibility', 'Validation', 'Github', 'Sass', 'Command Line', 'RWD', 'Javascript', 'jQuery']
             },
             normalScrollElements: null,
             normalScrollElementTouchThreshold: 5,
