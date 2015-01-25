@@ -98,8 +98,7 @@ nav {
     margin-bottom: 30px;
     margin-right: 10px;
     color: black;
-    font-family: "brush-script-std";
-    transition: font-size 500ms ease; }
+    font-family: "lato", sans-serif; }
     nav li:hover {
       font-size: 28px;
       color: gray; }

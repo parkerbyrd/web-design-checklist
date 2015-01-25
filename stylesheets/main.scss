@@ -72,9 +72,9 @@ nav {
 	margin-bottom: 30px;
 	margin-right: 10px;
 	color: black;
-	font-family: $header-font;
+	font-family: $main-font;
 
-	transition: font-size 500ms ease;
+	
 	&:hover{
 		font-size: 28px;
 		color: gray;
